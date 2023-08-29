@@ -1,6 +1,5 @@
 {
   "name": "chatgpt-next-web",
-  "private": false,
   "license": "mit",
   "scripts": {
     "dev": "next dev",
@@ -39,6 +38,7 @@
     "sass": "^1.59.2",
     "spark-md5": "^3.0.2",
     "use-debounce": "^9.0.4",
+    "yarn": "^1.22.19",
     "zustand": "^4.3.8"
   },
   "devDependencies": {
@@ -62,5 +62,6 @@
   },
   "resolutions": {
     "lint-staged/yaml": "^2.2.2"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }
